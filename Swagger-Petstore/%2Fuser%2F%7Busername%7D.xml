@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/user/{username}" path="/user/{username}" id="67c85637-a698-4a3a-b78a-84304cc62e21" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="67c85637-a698-4a3a-b78a-84304cc62e21fileName">%2Fuser%2F%7Busername%7D</con:setting></con:settings><con:parameters><con:parameter required="true"><con:name>username</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description>The name that needs to be deleted</con:description></con:parameter></con:parameters><con:method name="getUserByName" id="e008ea15-d8e6-4465-bf8c-92e5f7414276" method="GET"><con:description>
+Get user by user name</con:description><con:settings/><con:parameters/><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent>{&#13;
+  "id" : 0,&#13;
+  "username" : "string",&#13;
+  "firstName" : "string",&#13;
+  "lastName" : "string",&#13;
+  "email" : "string",&#13;
+  "password" : "string",&#13;
+  "phone" : "string",&#13;
+  "userStatus" : 0&#13;
+}</con:sampleContent></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent><![CDATA[<User>
+   <id>0</id>
+   <username>string</username>
+   <firstName>string</firstName>
+   <lastName>string</lastName>
+   <email>string</email>
+   <password>string</password>
+   <phone>string</phone>
+   <userStatus>0</userStatus>
+</User>]]></con:sampleContent></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:request name="Request 1" id="37d58ac9-cfa9-4b91-8eb5-b2fd6a27a807" mediaType="application/json"><con:description xsi:nil="true"/><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters><con:entry key="username" value=""/></con:parameters></con:request></con:method><con:method name="updateUser" id="885b489d-fde3-434a-bc0f-2962514ce223" method="PUT"><con:description>This can only be done by the logged in user.
+Updated user</con:description><con:settings/><con:parameters/><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent>{&#13;
+  "id" : 0,&#13;
+  "username" : "string",&#13;
+  "firstName" : "string",&#13;
+  "lastName" : "string",&#13;
+  "email" : "string",&#13;
+  "password" : "string",&#13;
+  "phone" : "string",&#13;
+  "userStatus" : 0&#13;
+}</con:sampleContent></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:request name="Request 1" id="8e22777c-cdc7-4e73-9ad2-088c5fe7b42f" mediaType="application/json"><con:description>This can only be done by the logged in user.
+Updated user</con:description><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{\r
+  "id" : 0,\r
+  "username" : "string",\r
+  "firstName" : "string",\r
+  "lastName" : "string",\r
+  "email" : "string",\r
+  "password" : "string",\r
+  "phone" : "string",\r
+  "userStatus" : 0\r
+}</con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters><con:entry key="username" value=""/></con:parameters></con:request></con:method><con:method name="deleteUser" id="e979ca83-6d5b-4e0b-82de-f323f1b6092f" method="DELETE"><con:description>This can only be done by the logged in user.
+Delete user</con:description><con:settings/><con:parameters/><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:request name="Request 1" id="0bceb1fe-a5f5-4c17-a060-42061362dd66" mediaType="application/json"><con:description xsi:nil="true"/><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters><con:entry key="username" value=""/></con:parameters></con:request></con:method></con:resource>

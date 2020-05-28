@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/pet/{petId}" method="GET" resourcePath="/v2/pet/{petId}" id="51653a96-0d48-49e4-9c4c-c50e0e82a559" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="51653a96-0d48-49e4-9c4c-c50e0e82a559fileName">%2Fv2%2Fpet%2F%7BpetId%7D</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="4e115471-630d-4638-a2ae-abdb542ed8ea" httpResponseStatus="200" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 2" id="a8768cd1-af5c-4e09-b48b-f142e7743f98" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource=""><con:settings/><con:responseContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:responseContent></con:response><con:response name="Response 3" id="474fb79b-5ccb-468a-a22f-f57c50f274af" httpResponseStatus="400" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="6095c1d6-7dc0-4104-b0ae-07f713cf6c82" httpResponseStatus="400" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 5" id="40b4d515-910d-48ad-b013-3d88b109b460" httpResponseStatus="404" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 6" id="596ae128-60f4-4a1a-a63d-d953fab89721" httpResponseStatus="404" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response></con:restMockAction>

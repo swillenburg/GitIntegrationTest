@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/pet/findByTags" method="GET" resourcePath="/v2/pet/findByTags" id="38f3d881-a330-4299-bda9-f2ccbf7f3dbd" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="38f3d881-a330-4299-bda9-f2ccbf7f3dbdfileName">%2Fv2%2Fpet%2FfindByTags</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="a4c4976c-ccd8-4505-a830-2493264a6c23" httpResponseStatus="200" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 2" id="209a9cdd-4c0f-422d-b1a6-fc341f866101" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource=""><con:settings/><con:responseContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:responseContent></con:response><con:response name="Response 3" id="8eaef18c-f8a0-4f77-9736-f85ce58304eb" httpResponseStatus="400" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="87e79196-ae28-43dd-b513-1c97c7bb8efd" httpResponseStatus="400" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response></con:restMockAction>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/user" path="/user" id="aa8627e5-9ec3-4631-a95d-c3c59b956761" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="aa8627e5-9ec3-4631-a95d-c3c59b956761fileName">%2Fuser</con:setting></con:settings><con:parameters/><con:method name="createUser" id="5805cceb-b43d-4163-a33d-af0e94fb8c3d" method="POST"><con:description>This can only be done by the logged in user.
+Create user</con:description><con:settings/><con:parameters/><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent>{&#13;
+  "id" : 0,&#13;
+  "username" : "string",&#13;
+  "firstName" : "string",&#13;
+  "lastName" : "string",&#13;
+  "email" : "string",&#13;
+  "password" : "string",&#13;
+  "phone" : "string",&#13;
+  "userStatus" : 0&#13;
+}</con:sampleContent></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:request name="Request 1" id="dd9dc442-0f7b-4be6-8b55-40c6e5f33c63" mediaType="application/json"><con:description>This can only be done by the logged in user.
+Create user</con:description><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{\r
+  "id" : 0,\r
+  "username" : "string",\r
+  "firstName" : "string",\r
+  "lastName" : "string",\r
+  "email" : "string",\r
+  "password" : "string",\r
+  "phone" : "string",\r
+  "userStatus" : 0\r
+}</con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>

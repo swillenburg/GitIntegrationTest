@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/user/{username}" method="GET" resourcePath="/v2/user/{username}" id="8da690d0-295a-4782-b095-e8e9af53d69f" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="8da690d0-295a-4782-b095-e8e9af53d69ffileName">%2Fv2%2Fuser%2F%7Busername%7D</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="bbe3501c-fc40-4467-bb49-8add152bbb9e" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource=""><con:settings/><con:responseContent>{&#13;
+  "id" : 0,&#13;
+  "username" : "string",&#13;
+  "firstName" : "string",&#13;
+  "lastName" : "string",&#13;
+  "email" : "string",&#13;
+  "password" : "string",&#13;
+  "phone" : "string",&#13;
+  "userStatus" : 0&#13;
+}</con:responseContent></con:response><con:response name="Response 2" id="501fac82-f4ce-4101-9eea-0e9eb0cc904f" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource=""><con:settings/><con:responseContent><![CDATA[<User>
+   <id>0</id>
+   <username>string</username>
+   <firstName>string</firstName>
+   <lastName>string</lastName>
+   <email>string</email>
+   <password>string</password>
+   <phone>string</phone>
+   <userStatus>0</userStatus>
+</User>]]></con:responseContent></con:response><con:response name="Response 3" id="f89eaf32-1379-4caf-9284-e33649536254" httpResponseStatus="400" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="a62d5771-22be-4eeb-b324-8d179de643a4" httpResponseStatus="400" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 5" id="ec43dab1-ce9b-4688-81e0-3b489a5e3c3f" httpResponseStatus="404" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 6" id="834ab213-6dea-497d-8ed7-4ca5dfa891b7" httpResponseStatus="404" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response></con:restMockAction>

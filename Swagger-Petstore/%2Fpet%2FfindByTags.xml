@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/pet/findByTags" path="/pet/findByTags" id="d6929daa-408d-436c-a9cc-0c0ebb304c84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="d6929daa-408d-436c-a9cc-0c0ebb304c84fileName">%2Fpet%2FfindByTags</con:setting></con:settings><con:parameters/><con:method name="findPetsByTags" id="4c0024ba-3a16-4301-bd67-88cc2b249085" method="GET"><con:description>Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
+Finds Pets by tags</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>tags</con:name><con:value/><con:style>QUERY</con:style><con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:string</con:type><con:default/><con:description>Tags to filter by</con:description></con:parameter></con:parameters><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:sampleContent></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:request name="Request 1" id="07f159d9-39d3-4ed5-9994-c7d54fe3ba5e" mediaType="application/json"><con:description xsi:nil="true"/><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters><con:entry key="tags" value=""/></con:parameters><con:parameterOrder><con:entry>tags</con:entry></con:parameterOrder></con:request></con:method></con:resource>

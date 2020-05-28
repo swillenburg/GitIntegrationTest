@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/pet/{petId}/uploadImage" method="POST" resourcePath="/v2/pet/{petId}/uploadImage" id="cac73814-d6bb-4f48-ac4c-43a215ce069a" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="cac73814-d6bb-4f48-ac4c-43a215ce069afileName">%2Fv2%2Fpet%2F%7BpetId%7D%2FuploadImage</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="0846dbc7-f224-41c9-bce1-edcc906d472d" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource=""><con:settings/><con:responseContent>{&#13;
+  "code" : 0,&#13;
+  "type" : "string",&#13;
+  "message" : "string"&#13;
+}</con:responseContent></con:response></con:restMockAction>

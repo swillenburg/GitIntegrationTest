@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/pet" path="/pet" id="4af0f52c-25e2-467c-98a8-7be7a5b6481d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="4af0f52c-25e2-467c-98a8-7be7a5b6481dfileName">%2Fpet</con:setting></con:settings><con:parameters/><con:method name="addPet" id="a190c40a-db67-4732-8bae-4c4cd2f29ed4" method="POST"><con:description>
+Add a new pet to the store</con:description><con:settings/><con:parameters/><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/xml</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:sampleContent></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>405</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>405</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/xml</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:request name="Request 1" id="e5dd1fc3-e80f-4d87-a21a-8ba9e8e47012" mediaType="application/json"><con:description>
+Add a new pet to the store</con:description><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request><con:request name="Request 2" id="5c5f5314-4c5c-4f7f-b81b-dd5358123cd3" mediaType="application/xml"><con:description>
+Add a new pet to the store</con:description><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request><![CDATA[<Pet>\r
+   <id>0</id>\r
+   <Category>\r
+      <id>0</id>\r
+      <name>string</name>\r
+   </Category>\r
+   <name>doggie</name>\r
+   <photoUrlss>\r
+      <photoUrl>string</photoUrl>\r
+   </photoUrlss>\r
+   <tagss>\r
+      <tag>\r
+         <id>0</id>\r
+         <name>string</name>\r
+      </tag>\r
+   </tagss>\r
+   <status>available</status>\r
+</Pet>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method><con:method name="updatePet" id="b3cb935d-af23-447c-ac20-fa00eb9df45e" method="PUT"><con:description>
+Update an existing pet</con:description><con:settings/><con:parameters/><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/xml</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:sampleContent></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/json</con:mediaType><con:status>405</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE" id=""><con:mediaType>application/xml</con:mediaType><con:status>405</con:status><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/json</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="REQUEST" id=""><con:mediaType>application/xml</con:mediaType><con:status/><con:params/><con:description xsi:nil="true"/><con:sampleContent xsi:nil="true"/></con:representation><con:request name="Request 1" id="77a6b421-7120-4aa5-9e33-7e6cfea23d53" mediaType="application/json"><con:description>
+Update an existing pet</con:description><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request><con:request name="Request 2" id="ab30ba78-2804-4664-b820-e2d2e8466dac" mediaType="application/xml"><con:description>
+Update an existing pet</con:description><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request><![CDATA[<Pet>\r
+   <id>0</id>\r
+   <Category>\r
+      <id>0</id>\r
+      <name>string</name>\r
+   </Category>\r
+   <name>doggie</name>\r
+   <photoUrlss>\r
+      <photoUrl>string</photoUrl>\r
+   </photoUrlss>\r
+   <tagss>\r
+      <tag>\r
+         <id>0</id>\r
+         <name>string</name>\r
+      </tag>\r
+   </tagss>\r
+   <status>available</status>\r
+</Pet>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>

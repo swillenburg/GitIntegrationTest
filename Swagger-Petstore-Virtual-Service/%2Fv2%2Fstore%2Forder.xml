@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/v2/store/order" method="POST" resourcePath="/v2/store/order" id="c8956bd8-47f3-4fed-99fe-6e31502ac1ca" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="c8956bd8-47f3-4fed-99fe-6e31502ac1cafileName">%2Fv2%2Fstore%2Forder</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="3df9cfff-848a-42ed-8bcd-a1f90526b3a4" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource=""><con:settings/><con:responseContent>{&#13;
+  "id" : 0,&#13;
+  "petId" : 0,&#13;
+  "quantity" : 0,&#13;
+  "shipDate" : "2015-07-20T15:49:04-07:00",&#13;
+  "status" : "placed",&#13;
+  "complete" : true&#13;
+}</con:responseContent></con:response><con:response name="Response 2" id="0e193e4c-3fb8-4f49-ab3a-db5955b18e1f" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource=""><con:settings/><con:responseContent><![CDATA[<Order>
+   <id>0</id>
+   <petId>0</petId>
+   <quantity>0</quantity>
+   <shipDate>2015-07-20T15:49:04-07:00</shipDate>
+   <status>placed</status>
+   <complete>true</complete>
+</Order>]]></con:responseContent></con:response><con:response name="Response 3" id="81180103-ae43-4f75-b0bf-a167aced0f66" httpResponseStatus="400" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="ace3aa5a-4c1e-4a81-bf2e-30fd3c00c563" httpResponseStatus="400" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response></con:restMockAction>
